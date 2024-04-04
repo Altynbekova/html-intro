@@ -4,23 +4,100 @@
 <head>
     <meta charset="UTF-8">
     <title>Title of index.html</title>
+    <style>
+        article {
+            min-height: 100%;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            background-color: #45a1ff;
+            color: #fff;
+        }
+
+        div#div1, div#div2, span {
+            background-color: beige;
+            text-align: right;
+            padding: 5px;
+        }
+
+        .mystyle {
+            background-color: aqua;
+        }
+
+        p {
+            color: blueviolet;
+            text-align: justify;
+            font-size: 14px;
+            font-style: inherit;
+            font-weight: inherit;
+        }
+
+        table, tr, th, td {
+            border: 3px dotted orange;
+            border-collapse: collapse;
+        }
+
+        tr {
+
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding-top: 50px;
+        }
+
+        li#li1{
+            font-weight: bold;
+            font-size: large;
+            text-align: right;
+        }
+
+
+    </style>
 </head>
 
 <body>
 
 <div id="div1">
-    <h1>Заголовок 1 уровня</h1>
+    <h1 class="mystyle">Заголовок 1 уровня</h1>
     asdrfigrgeari weiygr kuwergu.<br>
     asdfjhjv ;wouerh bdlwhi f
 </div>
+<span style="padding-left: 50px">a</span>sdrfigrgeari weiygr kuwergu.
+asdfjhjv ;wouerh bdlwhi f asdfjhjv ;wouerh bdlwhi fasdfjhjv ;wouerh bdlwhi fasdfjhjv ;wouerh bdlwhi fasdfjhjv ;wouerh
+bdlwhi fasdfjhjv ;wouerh bdlwhi fasdfjhjv ;wouerh bdlwhi fasdfjhjv ;wouerh bdlwhi fasdfjhjv ;wouerh bdlwhi fasdfjhjv
+;wouerh bdlwhi fasdfjhjv ;wouerh bdlwhi fasdfjhjv ;wouerh bdlwhi fasdfjhjv ;wouerh bdlwhi f
 
 <div id="div2">
     <h2>Заголовок 2 уровня</h2>
-    <p style="color: blueviolet; text-align: justify"> Язык гипертекстовой разметки HTML был разработан британским учёным Тимом Бернерсом-Ли приблизительно в 1986—1991 годах в стенах ЦЕРНа в Женеве в Швейцарии[3]. HTML создавался как язык для обмена научной и технической документацией, пригодный для использования людьми, не являющимися специалистами в области вёрстки. HTML успешно справлялся с проблемой сложности SGML путём определения небольшого набора структурных и семантических элементов — дескрипторов. Дескрипторы также часто называют «тегами». С помощью HTML можно легко создать относительно простой, но красиво оформленный документ. Помимо упрощения структуры документа, в HTML внесена поддержка гипертекста. Мультимедийные возможности были добавлены позже.</p>
-    <blockquote style="background-color: grey; text-align: center; color: white"> Язык гипертекстовой разметки HTML был разработан британским учёным Тимом Бернерсом-Ли приблизительно в 1986—1991 годах в стенах ЦЕРНа в Женеве в Швейцарии[3]. HTML создавался как язык для обмена научной и технической документацией, пригодный для использования людьми, не являющимися специалистами в области вёрстки. HTML успешно справлялся с проблемой сложности SGML путём определения небольшого набора структурных и семантических элементов — дескрипторов. Дескрипторы также часто называют «тегами». С помощью HTML можно легко создать относительно простой, но красиво оформленный документ. Помимо упрощения структуры документа, в HTML внесена поддержка гипертекста. Мультимедийные возможности были добавлены позже.</blockquote>
+    <p style="color: green; text-align: justify"> Язык гипертекстовой разметки HTML был разработан британским учёным
+        Тимом Бернерсом-Ли приблизительно в 1986—1991 годах в стенах ЦЕРНа в Женеве в Швейцарии[3]. HTML создавался как
+        язык для обмена научной и технической документацией, пригодный для использования людьми, не являющимися
+        специалистами в области вёрстки. HTML успешно справлялся с проблемой сложности SGML путём определения небольшого
+        набора структурных и семантических элементов — дескрипторов. Дескрипторы также часто называют «тегами». С
+        помощью HTML можно легко создать относительно простой, но красиво оформленный документ. Помимо упрощения
+        структуры документа, в HTML внесена поддержка гипертекста. Мультимедийные возможности были добавлены позже.</p>
+    <blockquote style="background-color: grey; text-align: center; color: white"> Язык гипертекстовой разметки HTML был
+        разработан британским учёным Тимом Бернерсом-Ли приблизительно в 1986—1991 годах в стенах ЦЕРНа в Женеве в
+        Швейцарии[3]. HTML создавался как язык для обмена научной и технической документацией, пригодный для
+        использования людьми, не являющимися специалистами в области вёрстки. HTML успешно справлялся с проблемой
+        сложности SGML путём определения небольшого набора структурных и семантических элементов — дескрипторов.
+        Дескрипторы также часто называют «тегами». С помощью HTML можно легко создать относительно простой, но красиво
+        оформленный документ. Помимо упрощения структуры документа, в HTML внесена поддержка гипертекста. Мультимедийные
+        возможности были добавлены позже.
+    </blockquote>
 </div>
 
-<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" title="Google logo" alt="Здесь должен был быть логотип Google"><br>
+<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" title="Google logo"
+     alt="Здесь должен был быть логотип Google"><br>
 
 <input type="checkbox" id="myCheckbox">
 <label for="myCheckbox">Пометь меня галочкой</label><br>
@@ -28,12 +105,40 @@
 
 <div>
     <h4>Заголовок 4 уровня</h4>
-    <p> Изучаем HTML, XHTML и CSS = Head First HTML with CSS & XHTML. — П.: «Питер», 2010. — 656 с. — ISBN 978-5-49807-113-8.</p>
-    <p>Эд Титтел, Джефф Ноубл. HTML, XHTML и CSS для чайников, <span style="background-color: coral">7</span>-е издание = HTML, XHTML & CSS For Dummies, 7th Edition. — М.: «Диалектика», 2011. — 400 с. — ISBN 978-5-8459-1752-2.</p>
+    <p> Изучаем HTML, XHTML и CSS = Head First HTML with CSS & XHTML. — П.: «Питер», 2010. — 656 с. — ISBN
+        978-5-49807-113-8.</p>
+    <p>Эд Титтел, Джефф Ноубл. HTML, XHTML и CSS для чайников, <span style="background-color: coral">7</span>-е издание
+        = HTML, XHTML & CSS For Dummies, 7th Edition. — М.: «Диалектика», 2011. — 400 с. — ISBN 978-5-8459-1752-2.</p>
 </div>
 
-<span > Фримен Эрик, Фримен Элизабет.</span>
-<span > Фримен Эрик, Фримен Элизабет.</span>
+<span> Фримен Эрик, Фримен Элизабет.</span>
+<span> Фримен Эрик, Фримен Элизабет.</span>
+
+<table>
+    <tr> <!-- строка -->
+        <th>askdgfkug</th> <!-- столбец из заголовка -->
+        <th>dasdjfhygelrugf</th>
+    </tr>
+
+    <tr>
+        <td>aerfb<br> sdfkjg<br> sdfkjgh</td><!-- столбец -->
+        <td>aerfhibg</td>
+    </tr>
+</table>
+
+<ul style="">
+    <li id="li1">Пункт 1</li>
+    <li>Пункт 2</li>
+    <li>Пункт 3</li>
+</ul>
+
+<ol>
+    <li>Пункт №1</li>
+    <li>Пункт №2</li>
+    <li>Пункт №3</li>
+</ol>
+
 </body>
 
+<footer> Text of Footer</footer>
 </html>
